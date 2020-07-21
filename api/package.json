@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "healthy umma api",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd functions && tsc && firebase emulators:start",
+    "build": "cd functions && tsc --watch"
+  },
+  "license": "MIT"
+}
